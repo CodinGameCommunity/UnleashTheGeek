@@ -16,7 +16,8 @@
       This is a <b>league based</b> challenge.
     </p>
     <span class="statement-league-alert-content">
-      For this challenge, multiple leagues for the same game are available. Once you have proven your skills against the first Boss, you will access a higher league and extra opponents will be available.
+      For this challenge, multiple leagues for the same game are available. Once you have proven your skills against the
+      first Boss, you will access a higher league and extra opponents will be available.
     </span>
   </div>
   <!-- GOAL -->
@@ -101,7 +102,8 @@
 
       <p>Details:</p>
       <ul>
-        <li>Robots may only dig on the cell they occupy or neighbouring cells. Cells have <const>4</const> neighbours: up,
+        <li>Robots may only dig on the cell they occupy or neighbouring cells. Cells have <const>4</const> neighbours:
+          up,
           left, right, and down.</li>
 
         <li>Robots on any cell part of the headquarters will automatically deliver any ore it is
@@ -216,6 +218,8 @@
 
         <li>If a robot holding an item is destroyed, the item is lost.</li>
       </ul>
+      <p>You can check out the source code of this game <a rel="nofollow" target="_blank"
+          href="https://github.com/CodinGameCommunity/UnleashTheGeek">on this GitHub repo</a>.</p>
     </div>
   </div>
 
@@ -414,8 +418,14 @@
             </li>
           </ul>
 
-          You can modify them to suit your own coding style or start completely
-          from scratch.
+          <p>
+            You can modify them to suit your own coding style or start completely
+            from scratch.
+          </p>
+          Other starters may become available during the event <a target="_blank" rel="nofollow"
+            href="https://gist.github.com/CGjupoulton/">here</a>.
+
+
         </div>
       </div>
     </div>

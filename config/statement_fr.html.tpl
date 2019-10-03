@@ -106,7 +106,8 @@
 
       <p>Précisions :</p>
       <ul>
-        <li>Chaque robot ne peut creuser que sur la case qu'il occupe ou les cases adjacentes à sa position. Chaque case a <const>4</const>
+        <li>Chaque robot ne peut creuser que sur la case qu'il occupe ou les cases adjacentes à sa position. Chaque case
+          a <const>4</const>
           cases adjacentes : en haut, à droite, en bas et à gauche.</li>
 
         <li>Si un robot possède un cristal dans son inventaire en arrivant au quartier général, le cristal est
@@ -229,6 +230,8 @@
 
         <li>Si un robot transportant un objet est détruit, l'objet est détruit.</li>
       </ul>
+      <p>Vous pouvez voir le code source de ce jeu sur <a rel="nofollow" target="_blank"
+          href="https://github.com/CodinGameCommunity/UnleashTheGeek">ce repo GitHub</a>.</p>
     </div>
   </div>
 
@@ -360,7 +363,8 @@
           </li>
           <li>
             <action>DIG x y</action>: le robot tente d'enterrer un objet s'il en transporte, et d'extraire un cristal
-            d'un possible filon. <b> Si la case n'est pas adjacente, le robot effectuera une commande <action>MOVE</action> pour se rapprocher de la destination à la place.</b>
+            d'un possible filon. <b> Si la case n'est pas adjacente, le robot effectuera une commande <action>MOVE
+              </action> pour se rapprocher de la destination à la place.</b>
           </li>
           <li>
             <action>REQUEST</action> suivi de <action>RADAR</action> ou <action>TRAP</action>: le robot tente de
@@ -426,9 +430,14 @@
                   href="https://gist.github.com/CGjupoulton/e93512f74336aeef97a2c2a52b381e20">https://gist.github.com/CGjupoulton/e93512f74336aeef97a2c2a52b381e20</a>
               </li>
             </ul>
+            <p>
+              Vous pouvez les modifier selon votre style, ou les prendre comme exemple pour tout coder à partir de
+              zero.
+            </p>
 
-            Vous pouvez les modifier selon votre style, ou les prendre comme exemple pour tout coder à partir de
-            zero.
+            D'autres starters pourront être rendus disponibles pendant le contest <a target="_blank" rel="nofollow"
+              href="https://gist.github.com/CGjupoulton/">ici</a>.
+
           </div>
         </div>
       </div>
