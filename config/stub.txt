@@ -1,0 +1,29 @@
+read width:int height:int
+gameloop
+read myScore:int opponentScore:int
+loop height
+  loopline width ore:word(2) hole:int
+read entityCount:int radarCooldown:int trapCooldown:int
+loop entityCount
+  read id:int type:int x:int y:int item:int
+loop 5
+  write WAIT
+
+INPUT
+height: size of the map
+myScore: Amount of ore delivered
+ore: amount of ore or "?" if unknown
+hole: 1 if cell has a hole
+entityCount: number of entities visible to you
+id: unique id of the entity
+type: 0 for your robot, 1 for other robot, 2 for radar, 3 for trap
+y: position of the entity
+radarCooldown: turns left until a new radar can be requested
+trapCooldown: turns left until a new trap can be requested
+item: if this entity is a robot, the item it is carrying (-1 for NONE, 2 for RADAR, 3 for TRAP, 4 for ORE)
+
+OUTPUT
+WAIT|MOVE x y|DIG x y|REQUEST item
+
+STATEMENT
+Deliver more ore to hq (left side of the map) than your opponent. Use radars to find ore but beware of traps!
