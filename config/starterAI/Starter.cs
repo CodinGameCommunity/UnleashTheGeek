@@ -187,7 +187,9 @@ class Player
       int trapCooldown = int.Parse(inputs[2]); // turns left until a new trap can be requested
       game.Radars.Clear();
       game.Traps.Clear();
-      for (int i = 0; i < entityCount; i++)
+      game.MyRobots.Clear();
+      game.OpponentRobots.Clear();
+            for (int i = 0; i < entityCount; i++)
       {
         inputs = Console.ReadLine().Split(' ');
         int id = int.Parse(inputs[0]); // unique id of the entity
