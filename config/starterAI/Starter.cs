@@ -189,7 +189,7 @@ class Player
       game.Traps.Clear();
       game.MyRobots.Clear();
       game.OpponentRobots.Clear();
-            for (int i = 0; i < entityCount; i++)
+      for (int i = 0; i < entityCount; i++)
       {
         inputs = Console.ReadLine().Split(' ');
         int id = int.Parse(inputs[0]); // unique id of the entity
